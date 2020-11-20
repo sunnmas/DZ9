@@ -20,6 +20,7 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginBottom="75dp"
+        android:elevation="4dp"
         app:layout_constraintBottom_toBottomOf="@+id/sky"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:text="Moscow" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -77,7 +78,7 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/weatherimage"
+                android:id="@+id/weatherImage"
                 android:layout_width="match_parent"
                 android:layout_height="74dp"
                 app:srcCompat="@drawable/icon3" />
@@ -100,8 +101,8 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/searchBt"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
         android:clickable="true"
         app:layout_constraintBottom_toBottomOf="@+id/sky"
         app:layout_constraintEnd_toEndOf="@+id/cardSearch"
